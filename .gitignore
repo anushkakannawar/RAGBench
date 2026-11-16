@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & Results
+data/raw/*.pdf
+data/raw/*.txt
+data/processed/*.json
+results/logs/
+results/metrics/
+*.csv
+*.json
+!requirements.txt
+!package.json
+
+# Keep result figures for GitHub
+!results/figures/*.png
+!results/figures/.gitkeep
+
+# Models & Cache
+models/
+.cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Internal workflow/progress files (not for GitHub)
+PROGRESS_LOG.md
+YOUR_NEXT_STEPS.md
+YOUR_FINAL_ACTIONS.md
+SIMPLE_NEXT_STEPS.md
+GET_REAL_METRICS.md
+GETTING_STARTED.md
+IMPROVEMENT_ANALYSIS.md
+GITHUB_READY_SUMMARY.md
+FINAL_STATUS.md
+RESUME_COPY_PASTE.md
+RESUME_READY_RESULTS.md
+PUSH_TO_GITHUB.md
+
+# Keep structure folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/metrics/.gitkeep
+!results/logs/.gitkeep
+!results/error_analysis/.gitkeep
